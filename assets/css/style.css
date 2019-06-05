@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -14,18 +16,25 @@ body {
     min-height: 100%;
 }
 
+header{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    padding:0;
+    margin:0;
+    background-color: #fff;
 
+}
 
 .logo {
-    background-color: #4aaaa5;
+    background-color: #86424b;
     padding: 10px;
     margin: 0px;
     color: #fff !important;
     font-size: 1.5em;
     width: fit-content;
-    font-weight: bold;
     grid-column: 2;
     justify-self: start;
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -39,7 +48,7 @@ body {
 footer{
     background-color: #666666;
     color: #ccc;
-    border-top: #4aaaa5 8px solid;
+    border-top: #86424b 8px solid;
     font-size: 8pt;
     padding-top: 20px;
     text-align: center;
@@ -54,12 +63,13 @@ footer{
 
 
 h1 {
-    color: #4aaaa5;
+    color: #86424b;
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
+    font-family: 'Shadows Into Light', cursive;
     margin-top: 0px;
     width: 100%;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -113,7 +123,7 @@ figcaption {
     height: 2px;
     width: 100%;
     max-width: 100px;
-    background-color: #4aaaa5;
+    background-color: #86424b;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-out;
@@ -129,6 +139,7 @@ a{
     color: #777777;
 }
 a:hover{
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: #86424b;
     text-decoration: none;
 }
