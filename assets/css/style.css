@@ -143,3 +143,9 @@ a:hover{
     color: #86424b;
     text-decoration: none;
 }
+
+@media screen and (max-width: 450px){
+    .img-profile{
+        width: 100%;
+    }
+}
