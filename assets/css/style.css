@@ -90,23 +90,13 @@ p {
 .img-portfolio {
     width: 275px;
 }
-
-figure {
+.card {
+    width: 277px;
     margin: 10px;
-    position: relative;
-    top: 0;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
-figcaption {
-    background-color: #fff;
-    padding: 10px;
-    color: #fff;
-    position: absolute;
-    bottom: 0px;
-    width: 275px;
-    text-align: center;
+.card-body{
+    border-top: 1px solid #e5e5e5;
+
 }
 
 .nav .nav-link{
@@ -148,4 +138,17 @@ a:hover{
     .img-profile{
         width: 100%;
     }
+}
+
+#ico-lnkdn{
+    color: blue;    
+}
+#ico-github{
+    color: black;    
+}
+#ico-email{
+    color: red;    
+}
+#ico-wtp{
+    color: green;    
 }

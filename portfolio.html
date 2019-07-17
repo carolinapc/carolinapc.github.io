@@ -1,110 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Carolina Cavalcanti - Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- icon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/assets/favicon/site.webmanifest">
-        <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
-        <meta name="msapplication-TileColor" content="#2b5797">
-        <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
-        <meta name="theme-color" content="#ff0000">
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- custom style -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-    </head>
-    <body class="d-flex flex-column h-100">
-        <header>
-            <div class="container p-0">
-                <nav class="navbar navbar-expand-md navbar-light bg-white p-0 m-0">
-                    <a class="navbar-brand logo" href="index.html">Carolina Cavalcanti</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link text-dark" href="contact.html">Contact</a>
-                            </li> -->
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        
-        
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-xl-12 col-sm-12 col-xs-12 section  animated rotateInUpLeft">
-                    <h1>Portfolio</h1>  
-                    <div class="d-flex flex-wrap justify-content-center">
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/trainscheduler.png" alt="Train Scheduler">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/Train-Scheduler/" target="_blank">Train Scheduler</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/rpsmultiplayergame.png" alt="RPS Multiplayer Game">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/RPS-Multiplayer/" target="_blank">RPS Multiplayer Game</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/giftastic.png" alt="GifTastic: stickers & events search">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/GifTastic/" target="_blank">GifTastic: stickers & events search</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/triviagame.png" alt="Trivia Game">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/TriviaGame/" target="_blank">Trivia Game</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/rpggame.png" alt="Super Heroes RPG Game">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/unit-4-game/" target="_blank">Super Heroes RPG Game</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/hangman.png" alt="Hangman Game">
-                            <figcaption>
-                                <a href="https://carolinapc.github.io/Word-Guess-Game/" target="_blank">Hangman Game</a>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img class="img-portfolio" src="assets/images/mouseandcat.png" alt="Mouse and Cat Game">
-                            <figcaption>
-                                <a href="https://scratch.mit.edu/projects/298098057" target="_blank">Mouse and Cat Game</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
+<h1>Portfolio</h1>  
+<div class="d-flex flex-wrap justify-content-center">
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/trainscheduler.png" alt="Train Scheduler">
+        <div class="card-body">
+            <h5 class="card-title">Train Scheduler</h5>
+            <p class="card-text">Manage train schedules and watch them arrive!</p>
         </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/Train-Scheduler" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/Train-Scheduler/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
 
-        <footer class="footer mt-auto py-3">
-            <div class="container">
-                <span class="text-white">&copy; Carolina Cavalcanti</span>
-            </div>
-        </footer>
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/rpsmultiplayergame.png" alt="RPS Multiplayer Game">
+        <div class="card-body">
+            <h5 class="card-title">RPS Multiplayer Game</h5>
+            <p class="card-text">Play online the Rock Paper Scissors multiplayer game while you chat with the other player.</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/RPS-Multiplayer" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/RPS-Multiplayer/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
     
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
-    </body>
-</html>
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/giftastic.png" alt="GifTastic: stickers & events search">
+        <div class="card-body">
+            <h5 class="card-title">GifTastic: stickers & events search</h5>
+            <p class="card-text">Search stickers (giftastic API) and events of your favorite artist/band (bandsintown API).</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/GifTastic" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/GifTastic/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
+    
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/triviagame.png" alt="Trivia Game">
+        <div class="card-body">
+            <h5 class="card-title">Trivia Game</h5>
+            <p class="card-text">Test your knowledge about Canada history</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/TriviaGame" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/TriviaGame/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
+    
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/rpggame.png" alt="Super Heroes RPG Game">
+        <div class="card-body">
+            <h5 class="card-title">Super Heroes RPG Game</h5>
+            <p class="card-text">An RPG game with animation.</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/unit-4-game" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/unit-4-game/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
+    
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/hangman.png" alt="Hangman Game">
+        <div class="card-body">
+            <h5 class="card-title">Hangman Game</h5>
+            <p class="card-text">Play the famous hangman game with pop singers theme!</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://github.com/carolinapc/Word-Guess-Game" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="card-link" href="https://carolinapc.github.io/Word-Guess-Game/" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
+    
+    <div class="card shadow bg-white rounded">
+        <img class="img-portfolio" src="assets/images/mouseandcat.png" alt="Mouse and Cat Game">
+        <div class="card-body">
+            <h5 class="card-title">Mouse and Cat Game</h5>
+            <p class="card-text">A funny game build on the scratch platform.</p>
+        </div>
+        <div class="card-footer text-center">
+            <a class="card-link" href="https://scratch.mit.edu/projects/298098057" target="_blank"><i class="fas fa-globe-americas"></i> View</a>
+        </div>
+    </div>    
+</div>

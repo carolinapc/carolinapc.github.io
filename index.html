@@ -3,7 +3,8 @@
     <head>
         <title>Carolina Cavalcanti</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- icon -->
+
+        <!-- favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -13,12 +14,25 @@
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ff0000">
-        <!-- bootstrap -->
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- custom style -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Custom Style -->
         <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!-- Icons -->
         <script src="https://kit.fontawesome.com/113cd923d0.js"></script>
+
+        <!-- Main JS -->
+        <script src="assets/javascript/main.js"></script>
+
     </head>
     <body class="d-flex flex-column h-100">
         <header>
@@ -31,14 +45,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
+                                <a class="nav-link" data-name="about" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link" data-name="portfolio" href="#">Portfolio</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link text-dark" href="contact.html">Contact</a>
-                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" data-name="contact" href="#">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -47,22 +61,9 @@
                 
         <div class="container my-5">
             <div class="row">
-                <div class="col-xl-12 col-sm-12 col-xs-12 section animated rotateInUpLeft">
-                    <h1>About Me</h1>   
-                    <img class="img-profile" src="assets/images/profile.jpg" alt="">
-                    <p>Carolina Cavalcanti</p>
-                    <p>Over 10 years of experience working for Brazil Government tax departments as back-end software developer using PHP, C#/ASP.net, PL/SQL languages with Oracle, MySQL and Postgresql databases. Currently improving skills with boot camp coding at University of Toronto SCS.</p>
-                    <p>Strong commitment to data-driven decision making, object-oriented and user-centered design. Experienced in agile process for software delivery using methodologies like SCRUM. Highly organized, fast learner and creative in regards to problem-solving and innovation development.</p>
-                    <p>Passionate about approaching programming challenges from different angles, and collaborating with others to create meaningful web applications, seeks position with a top technology firm.</p>
-                    <p>
-                        <i class="fab fa-linkedin"></i> <a href="http://bit.ly/carolinapc" target="_blank">Linkedin</a>
-                        <i class="fab fa-github"></i> <a href="https://github.com/carolinapc" target="_blank">Github</a>
-                    </p>
-                </div>
+                <div class="col-xl-12 col-sm-12 col-xs-12 section" id="main-content"></div>
             </div>
         </div>
-                    
-        
 
         <footer class="footer mt-auto py-3">
             <div class="container">
@@ -70,8 +71,7 @@
             </div>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        
     </body>
 </html>
