@@ -143,6 +143,9 @@ a:hover{
     }
 }
 
+.about-ico{
+    margin-right: 10px;   
+}
 #ico-lnkdn{
     color: blue;    
 }
@@ -154,4 +157,7 @@ a:hover{
 }
 #ico-wtp{
     color: green;    
+}
+#ico-resume{
+    color: red;    
 }
